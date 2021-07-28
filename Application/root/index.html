@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sentiment Analysis</title>
+        <!-- Links and scripts -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+        <script type="text/javascript" src="js/index.js" charset="utf-8"></script>
+
+        <!-- Inline styles -->
+        <link rel="stylesheet" type = "text/css" href="css/style.css">
+    </head>
+
+    <body>
+        <!-- Topbar -->
+        <nav id="navbar-top" class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+            <div id="navbar-top" class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Sentiment Analysis</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="navbar-item" id="Model Predictions-list">
+                        <a class="tablinks" href="#" onclick="openTab(event, 'Model Predictions');">Model Predictions</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>  
+
+        <!-- Tab content -->
+        <div id="Model Predictions" class="container">
+            <div class="form-container">
+                <form id="inputForm">
+                    <div class="message-header form-row">
+                        <div class="form-group col-md-12">
+                            <div id="message-header">
+                                <img id="message-header-img" src="images/robot.svg" draggable="false">
+                                <label id="message-header-text">ChatBot</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message-hist form-row">
+                        <div class="form-group col-md-12">
+                            <div id="message-hist">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message-box form-row">
+                        <div class="form-group col-md-11">
+                            <textarea id="message-box-text" spellcheck="true" class="form-control" type="text" rows=1 required="true" placeholder="Enter your review"></textarea>
+                        </div>
+                        <div class="form-group col-md-1">
+                            <input class="button" type="image" src="images/sendmsg.png"></input>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- Footer -->
+        <footer id="footer" class="page-footer">
+            <!-- Grid row -->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-12">
+                    <!-- Content -->
+                    <h5>Designed by Bill Dsouza</h5>
+                </div>
+            </div>
+        </footer> 
+
+    </body>
+</html>
