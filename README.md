@@ -7,7 +7,10 @@ This is a simple web application in which the user enters a single-line review f
 <br>
 <br>
 
-* Frontend : HTML, CSS, Javascript
+* Frontend : HTML, CSS, Bootstrap, Javascript
 * Backend : Flask, Python
 
-Sample output for both positive and negative reviews can be seen [here](https://drive.google.com/drive/folders/1WnBWPM7OkMgzoK3Rva-tqM6SEEQjDy9u?usp=sharing).
+Sample output for both positive and negative reviews
+<br>
+<br>
+![here](https://github.com/bill-dsouza15/restaurant-reviews/blob/main/output.png).
