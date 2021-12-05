@@ -7,7 +7,8 @@ This is a simple web application in which the user enters a single-line review f
 I designed the application to look like a chatbot so that it feels more "realistic".
 <br>
 <br>
+___
 
 ## Sample output
-
-![here](https://github.com/bill-dsouza15/restaurant-reviews/blob/main/output.png).
+<br>
+<img src="https://github.com/bill-dsouza15/restaurant-reviews/blob/main/output.png" alt="Output" height=400 width="328.5" />.
